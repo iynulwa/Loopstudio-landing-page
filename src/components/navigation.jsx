@@ -12,8 +12,8 @@ function Navigation() {
     return(
         <>
             <nav>
-                <img className='logo' src='/images/logo.svg' alt='company logo'/>
-                <img onClick={handleClick} className='menu-icon open' src='/images/icon-hamburger.svg' alt='open menu'/>
+                <img className='logo' src='/images/logo.svg' alt='company logo' loading='lazy'/>
+                <img onClick={handleClick} className='menu-icon open' src='/images/icon-hamburger.svg' alt='open menu' loading='lazy'/>
                 <div className='desktop-items' hidden>
                     <p className='desktop-menu'>About</p>
                     <p className='desktop-menu'>Careers</p>
@@ -25,8 +25,8 @@ function Navigation() {
 
             {isOpen && <div className='pop-up-menu'>
                 <div className='logo-close-div'>
-                    <img className='logo' src='/images/logo.svg' alt='company logo'/>
-                    <img onClick={handleClick} className='menu-icon close' src='/images/icon-close.svg' alt='close menu'/>
+                    <img className='logo' src='/images/logo.svg' alt='company logo' loading='lazy'/>
+                    <img onClick={handleClick} className='menu-icon close' src='/images/icon-close.svg' alt='close menu' loading='lazy'/>
                 </div>
                 <div>
                     <p className='menu-items'>About</p>

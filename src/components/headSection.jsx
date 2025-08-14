@@ -4,8 +4,8 @@ function HeadSection() {
     return(
         <section className='head-section'>
             <picture className='head-img'>
-                <source srcSet='/images/desktop/image-interactive.jpg' alt='man with VR headset on' />
-                <img src='/images/mobile/image-interactive.jpg' alt='man with VR headset on' />
+                <source srcSet='/images/desktop/image-interactive.jpg' alt='man with VR headset on' loading='lazy' />
+                <img src='/images/mobile/image-interactive.jpg' alt='man with VR headset on' loading='lazy' />
             </picture>
             <div className='head-section-text'>
                 <h2>The leader in interactive VR</h2>
