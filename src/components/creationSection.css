@@ -1,0 +1,61 @@
+.creation-section{
+    margin: 2rem 0;
+}
+
+.creation-grid{
+    padding: 1.5rem;
+}
+
+.creation-title > h2{
+    margin: 0;
+}
+
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-btn, .desktop-btn{
+    width: 9rem;
+    background-color: transparent;
+    padding: 1rem;
+    border: 1px solid var(--clr--black);
+
+    &:hover{
+        background-color: var(--clr--black);
+        color: var(--clr--white);
+    }
+}
+
+
+@media (min-width: 40rem) {
+
+    .creation-section{
+        padding: 4.5rem;
+        margin: 0;
+    }
+
+    .creation-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 1rem 0;
+    }
+
+    .creation-grid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .desktop-btn{
+        display: block;
+    }
+
+    .mobile-btn{
+        display: none;
+    }
+}

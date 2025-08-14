@@ -1,0 +1,52 @@
+.creationsInfo{
+    position: relative;
+    margin: 2rem 0;
+
+    &:hover .overlay{
+        opacity: 50%;
+    }
+
+    &:hover .creationsInfo-text{
+        color: var(--clr--black);
+        font-weight: 500;
+    }
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr--white);
+    opacity: 0;
+    inset: 0;
+    z-index: 1;
+}
+
+.creationsInfo-text{
+    width: 52%;
+    position: absolute;
+    z-index: 2;
+    inset-block-end: 0;
+    inset-inline-start: 5%;
+    color: var(--clr--white);
+    text-align: left;
+    font-size: clamp(1rem, 4vw ,1.5rem);
+}
+
+
+
+@media (min-width: 40rem) {
+    .creationsInfo{
+        margin: 0;
+    }
+
+    .creationsInfo > picture, img{
+        width: 100%;
+        height: auto;
+    }
+
+    .creationsInfo-text{
+        font-size: clamp(0.5rem, 1.7vw, 1.5rem);
+        inset-inline-start: 10%;
+    }
+}

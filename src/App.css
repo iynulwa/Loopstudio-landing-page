@@ -1,0 +1,9 @@
+h1, h2{
+    text-transform: uppercase;
+    font-family: var(--ff-heading);
+    font-weight: 300;
+}
+
+p, button{
+    font-family: var(--ff-body);
+}
