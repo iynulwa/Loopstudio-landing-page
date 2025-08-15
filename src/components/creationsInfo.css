@@ -13,13 +13,13 @@
 }
 
 .overlay{
-    position: absolute;
+    background-color: var(--clr--white);
     width: 100%;
     height: 100%;
-    background-color: var(--clr--white);
-    opacity: 0;
+    position: absolute;
     inset: 0;
     z-index: 1;
+    opacity: 0;
 }
 
 .creationsInfo-text{

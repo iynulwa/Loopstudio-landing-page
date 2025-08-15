@@ -20,13 +20,13 @@ function CreationSection() {
         <section className='creation-section'>
             <div className='creation-title'>
                 <h2>Our Creations</h2>
-                <button className='desktop-btn' hidden>SEE ALL</button>
+                <button type='button' className='desktop-btn' hidden>SEE ALL</button>
             </div>
             <div className='creation-grid'>
                 {creations.map(createSection)}
             </div>
             <div className='btn-div'>
-                <button className='mobile-btn'>SEE ALL</button>
+                <button type='button' className='mobile-btn'>SEE ALL</button>
             </div>
         </section>
     )

@@ -98,7 +98,7 @@ h1 {
         position: absolute;
         background-color: var(--clr--white);
         margin: auto;
-        height: 2px;
+        height: 0.13rem;
         width: 0;
         inset-inline-start: 15%;
         inset-block-end: -0.5rem;

@@ -26,7 +26,7 @@ footer{
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    margin-top: 1rem;
+    margin-inline-start: 1rem;
 }
 
 .foot-logo{
@@ -78,7 +78,7 @@ footer{
         position: absolute;
         background-color: var(--clr--white);
         margin: auto;
-        height: 2px;
+        height: 0.13rem;
         width: 0;
         inset-inline-start: 15%;
         inset-block-end: -0.5rem;
